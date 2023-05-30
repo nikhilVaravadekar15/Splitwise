@@ -75,7 +75,7 @@ export default function Home() {
           Keep track of your shared expenses and balances with housemates, trips, groups, friends, and family.
         </p>
         <div className="my-4 flex justify-center space-x-6 text-sm">
-          <Link href={"/auth/get-started"} className="bg-teal-400 hover:bg-teal-500 focus:outline-none text-white text-lg font-bold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto">
+          <Link href={"/get-started"} className="bg-teal-400 hover:bg-teal-500 focus:outline-none text-white text-lg font-bold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto">
             Get started
           </Link>
         </div>
