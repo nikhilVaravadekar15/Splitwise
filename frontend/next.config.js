@@ -11,7 +11,12 @@ const nextConfig = {
                 source: '/get-started',
                 destination: '/auth/signup',
                 permanent: true,
-            }
+            },
+            {
+                source: '/dashboard',
+                destination: '/dashboard/board',
+                permanent: true,
+            },
         ];
     }
 };
